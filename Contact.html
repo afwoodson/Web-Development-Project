@@ -5,12 +5,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Web Development Project</title>
+        <!-- provides background color to the page and the heading of the website-->
         <style>
             h1{
-                background-color: cyan;
+                background-color: yellow;
             }
             body{
-                background-color: lightblue;
+                background-color: lightyellow;
             }
         </style>
     </head>
@@ -18,7 +19,25 @@
     <body>
         <h1>Web Development Project</h1>
         <h2>Contact page</h2>
-        This is my first website and I am <b> extremely excited!!!</b>
+        <br>
+        <script defer src="./index.js"></script>
+
+    <div class="container">
+        <form id="form" action="/">
+            <h3>Message me directly</h3>
+            <div class="input-control">
+                <label for="your email">your email:</label>
+                <input id="your email" name="your email" type="text">
+            </div>
+            <br>
+            <div class="input-control">
+                <label for="message">message:</label>
+                <input id="message" name="message" type="text">
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
         <br>
         <a href='About.html' >About page</a>
         <br>
